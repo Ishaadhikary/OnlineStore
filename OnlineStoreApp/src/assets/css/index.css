@@ -1,5 +1,6 @@
 @import url(./header.css);
 *{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,18 +9,22 @@ a{
     color: initial;
     text-decoration: none;
 }
+img{
+    width: 100%;
+}
 :root{
     font-family: 'Poppins', sans-serif;
     --primary-color:black;/* Black */
     --secondary-color-one:#f5f7f9;/* Gray */
     --secondary-color-two:#EBD96B; /* Yellow */
-    --border-radius-big:12px;
-    --border-radius-small:3px;
+    --secondary-color-three:white;
+    --border-radius-big:3.6875rem;
+    --border-radius-small: 0.625rem;
     --box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     
 }
 
-.top-right-item:hover, a:hover{
+.top-right-item:hover, a:hover,button:hover{
     font-weight: bold;
     font-size:medium;
     cursor: pointer;
@@ -41,3 +46,15 @@ input:focus{
     outline: none;
 }
 
+button{
+    border-radius: var(--border-radius-small);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding:4px 8px;
+    font-size: 1.07rem;
+}
+
+button:hover{
+    box-shadow: var(--box-shadow);
+}

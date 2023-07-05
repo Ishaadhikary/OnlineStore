@@ -25,5 +25,5 @@
 }
 .first-container-third-item:hover{
     box-shadow: var(--box-shadow);
-    cursor: pointer;
+    
 }

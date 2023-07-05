@@ -1,0 +1,44 @@
+@import url(./index.css);
+.second-container {
+  padding: 0px 1%;
+  display: flex;
+  background: var(--secondary-color-one);
+  border-radius: var(--border-radius-small);
+  justify-content: space-between;
+}
+.second-container-text{
+    width:45%;
+    align-self: center;
+    padding-left: 4%;
+}
+.second-container-img {
+  width: 45%;
+  align-self: flex-end;
+}
+
+.second-container h1 {
+  font-size: 5.5rem;
+}
+
+.second-container button{
+    background: var(--primary-color);
+    color:var(--secondary-color-three)
+
+}
+.second-container-center-text{
+    width: 30.98656rem;
+height: 7.34688rem;
+transform: rotate(-2deg);
+flex-shrink: 0;
+background: var(--secondary-color-two);
+}
+.second-container-bottom-text
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.second-container-bottom-text img{
+    width: 30%;
+}
