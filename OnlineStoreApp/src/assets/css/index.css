@@ -1,0 +1,24 @@
+@import url(./header.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-family: 'Poppins', sans-serif;
+    --primary-color:black;/* Black */
+    --secondary-color-one:#F4F6F5;/* Gray */
+    --secondary-color-two:#EBD96B; /* Yellow */
+    --border-readius-big:9px;
+    --border-radius-small:3px;
+    --box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.top-right-item:hover{
+    font-weight: bold;
+    font-size: large;
+    box-shadow: var(--box-shadow);
+
+}
+
