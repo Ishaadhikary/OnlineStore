@@ -21,7 +21,9 @@ a{
 
 .top-right-item:hover, a:hover{
     font-weight: bold;
-    font-size:medium
+    font-size:medium;
+    cursor: pointer;
+    
 }
 /* a:active{
     font-size: larger;

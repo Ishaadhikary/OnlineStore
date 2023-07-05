@@ -22,5 +22,8 @@
     padding: 12px 8px;
     display: flex;
     justify-content: space-between;
-
+}
+.first-container-third-item:hover{
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
 }
