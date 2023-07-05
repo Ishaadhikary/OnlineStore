@@ -4,21 +4,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    color: initial;
+    text-decoration: none;
+}
 :root{
     font-family: 'Poppins', sans-serif;
     --primary-color:black;/* Black */
-    --secondary-color-one:#F4F6F5;/* Gray */
+    --secondary-color-one:#f5f7f9;/* Gray */
     --secondary-color-two:#EBD96B; /* Yellow */
-    --border-readius-big:9px;
+    --border-radius-big:12px;
     --border-radius-small:3px;
     --box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     
 }
 
-.top-right-item:hover{
+.top-right-item:hover, a:hover{
     font-weight: bold;
-    font-size: large;
-    box-shadow: var(--box-shadow);
+    font-size:medium
+}
+/* a:active{
+    font-size: larger;
+    background-color: var(--secondary-color-two);
+    border-radius: var(--border-radius-small);
+} */
 
+
+input{
+    border: none;
+    background: none;
+}
+
+input:focus{
+    outline: none;
 }
 
