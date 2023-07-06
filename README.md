@@ -10,3 +10,5 @@ Features:
 2. Search Items: Users can search the name of available items from the product list
 3. Product Details: Users can view at the details about the products usign a scroll option
 
+## Link to live demo: 
+### https://endearing-choux-9f23c5.netlify.app/ 
