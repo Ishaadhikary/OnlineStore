@@ -4,7 +4,7 @@ export default function ThirdContainer() {
   return (
     <>
       <div className="third-container">
-        <h2>Category</h2>
+        <h2>Category<hr/></h2>
         <div className="third-container-bottom-item">
         <button className="third-container-items">
           <img src="/logo.svg" alt="Category" />

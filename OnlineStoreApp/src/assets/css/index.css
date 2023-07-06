@@ -44,6 +44,14 @@ input {
 input:focus {
   outline: none;
 }
+h2{
+  margin: 3% auto 2%;
+  text-align: center;
+  width: fit-content;
+}
+hr{
+  border:1px solid  #ebd96b;
+}
 
 button {
   border-radius: var(--border-radius-small);

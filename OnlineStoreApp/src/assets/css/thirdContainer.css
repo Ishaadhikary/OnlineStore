@@ -1,8 +1,5 @@
 @import url(./index.css);
-h2{
-    margin: 3% auto 2%;
-    text-align: center;
-}
+
 .third-container-bottom-item {
     align-items: center;
   display: flex;
