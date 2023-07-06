@@ -101,3 +101,17 @@ button:hover, .card-container:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
+#comingSoon{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-size: 30pt;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#comingSoon button{
+  background: var(--secondary-color-two);
+}
