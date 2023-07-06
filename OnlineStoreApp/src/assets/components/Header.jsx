@@ -5,7 +5,7 @@ export default function Header() {
       <div class="header">
         <span>Get 50% off on selected Items</span>
         <span>&nbsp;|&nbsp;</span>
-        <span className='top-right-item'><a href="../comingSoon.html">Shop Now</a></span>
+        <span className='top-right-item'><a href="\comingSoon.html">Shop Now</a></span>
       </div>
     </>
   );
