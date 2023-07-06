@@ -87,7 +87,6 @@ button:hover, .card-container:hover {
 /* Track */
 ::-webkit-scrollbar-track {
   background: var(--secondary-color-four); 
-  
   border-radius: var(--border-radius-small)
 }
  

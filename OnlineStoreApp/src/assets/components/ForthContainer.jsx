@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import Card from "./Card";
 import "../css/forthContainer.css";
 export default function ForthContainer() {
   const [updateStoreData, setUpdateStoreData] = useState([]);
@@ -21,11 +20,11 @@ export default function ForthContainer() {
           <hr />
         </h2>
         <div className="card-container-box">
-          {updateStoreData.slice(0,5).map((values) => {
+          {updateStoreData.map((values) => {
           
             return (
               <>
-                <div className="card-container">
+                <div key={values.id} className="card-container">
                   <div>
                     <img className="product-img" src={values.image} alt="" />
                     <p><strong>{`$ ${values.price}`}</strong></p>
@@ -38,7 +37,7 @@ export default function ForthContainer() {
             );
           })}
 
-          <button>View All</button>
+          <button><a href="/commingSoon.html">View All</a></button>
         </div>
       </div>
     </>
