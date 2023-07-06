@@ -1,5 +1,5 @@
 import Card from './Card';
-import '../css/forthContainer.css'
+import '../css/forth-container.css'
 export default function ForthContainer() {
   return (
     <>

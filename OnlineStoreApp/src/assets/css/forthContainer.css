@@ -1,13 +1,15 @@
 @import url(index.css);
 
-.forth-container {
+.forth-container{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  padding: 0px 3%;
 }
 
 .card-container {
+  padding:0.5%;
     background: var(--secondary-color-four);
-  width: 10%;
+  width: 16%;
 }
 
