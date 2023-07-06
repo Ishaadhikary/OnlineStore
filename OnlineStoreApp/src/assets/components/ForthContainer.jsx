@@ -37,7 +37,7 @@ export default function ForthContainer() {
             );
           })}
 
-          <button><a href="/commingSoon.html">View All</a></button>
+          {/* <button><a href="/commingSoon.html">View All</a></button> */}
         </div>
       </div>
     </>
