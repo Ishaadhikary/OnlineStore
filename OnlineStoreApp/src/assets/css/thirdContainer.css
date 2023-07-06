@@ -1,0 +1,21 @@
+@import url(./index.css);
+h2{
+    margin: 3% auto 2%;
+    text-align: center;
+}
+.third-container-bottom-item {
+    align-items: center;
+  display: flex;
+  scroll-behavior: auto;
+  justify-content: space-evenly;
+}
+
+.third-container img {
+  align-self: center;
+  width: 15%;
+}
+
+.third-container-items {
+  
+  background: var(--secondary-color-four);
+}

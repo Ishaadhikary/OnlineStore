@@ -1,0 +1,13 @@
+@import url(index.css);
+
+.forth-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card-container {
+    background: var(--secondary-color-four);
+  width: 10%;
+}
+

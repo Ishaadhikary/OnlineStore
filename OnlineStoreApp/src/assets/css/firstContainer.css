@@ -1,29 +1,28 @@
 @import url(./index.css);
 
-.first-container{
-    display: flex;
-    padding: 0px 1%;
-    align-items: center;
-    justify-content: space-between;
+.first-container {
+  display: flex;
+  padding: 0px 1%;
+  align-items: center;
+  justify-content: space-between;
 }
-.first-container img{
-    align-self: flex-start;
-    max-width: fit-content;
+.first-container img {
+  align-self: flex-start;
+  max-width: fit-content;
 }
-.first-container-second-item{
-    display: flex;
-    justify-content: center;
-    gap:60px;
+.first-container-second-item {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
 }
 
-.first-container-third-item{
-    background: var(--secondary-color-one);
-    border-radius: var(--border-radius-big);
-    padding: 12px 8px;
-    display: flex;
-    justify-content: space-between;
+.first-container-third-item {
+  background: var(--secondary-color-one);
+  border-radius: var(--border-radius-big);
+  padding: 12px 8px;
+  display: flex;
+  justify-content: space-between;
 }
-.first-container-third-item:hover{
-    box-shadow: var(--box-shadow);
-    
+.first-container-third-item:hover {
+  box-shadow: var(--box-shadow);
 }

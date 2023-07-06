@@ -8,7 +8,7 @@ export default function SecondContainer() {
           <div className="second-container-bottom-text"> <img src="/secondContainerVector.svg" alt="" /><button className="seconde-container-button">Shop Now</button></div>
         </div>
         <div className="second-container-img">
-          <img src="/secondContainerImg.svg" alt="" />
+          <img src="/secondContainerImg.svg" alt="Girl Dancing" />
         </div>
       </div>
     </>
