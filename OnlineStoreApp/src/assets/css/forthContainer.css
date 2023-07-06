@@ -23,12 +23,24 @@
   border-radius: var(--border-radius-small);
   max-height: 300px;
   overflow-y: scroll;
-
+  align-items: center;
 }
 .second-container-second-item{
   font-size: smaller;
   color: var(--secondary-color-five);
   display: flex;
+}
+.card-container div{
+  display: flex;
+  flex-direction: column;
+}
+.product-img{
+  max-height: 40%;
+  max-width: 40%;
+  align-self: center;
+}
+.card-container div p:last-child{
+  font-size: 8pt;
 }
 
 .second-container-second-item img{
@@ -38,9 +50,7 @@
 .forth-container h4{
   font-weight: normal;
 }
-.card-container div >img{
-  height:50%;
-}
+
 .card-container-box button{
   margin-top: 1%;
   margin-left:94.5%;

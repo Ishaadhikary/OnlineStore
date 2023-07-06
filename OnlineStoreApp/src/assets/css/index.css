@@ -14,14 +14,19 @@ img {
 :root {
   font-family: "Poppins", sans-serif;
   --primary-color: black; /* Black */
-  --secondary-color-one: #f5f7f9; /* Gray */
+  --secondary-color-one: #f5f7f9;
   --secondary-color-two: #ebd96b; /* Yellow */
-  --secondary-color-three: white;
-  --secondary-color-four: #eeeeee; /* Dark gray */
+  --secondary-color-three: #eeeeee;
+  --secondary-color-four: white;
+  --secondary-color-six:#ebebeb;
+   /* Dark gray */
   --secondary-color-five:gray; /* Secondary text color:gray */
   --border-radius-big: 3.6875rem;
   --border-radius-small: 0.625rem;
   --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+body{
+  background: var(--secondary-color-one);
 }
 
 .top-right-item:hover,
