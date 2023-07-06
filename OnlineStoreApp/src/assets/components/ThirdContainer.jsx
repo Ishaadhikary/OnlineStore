@@ -3,7 +3,7 @@ import "../css/thirdContainer.css";
 export default function ThirdContainer() {
   return (
     <>
-      <div className="third-container">
+      <div className="third-container" id="categorySection">
         <h2>Category<hr/></h2>
         <div className="third-container-bottom-item">
         <button className="third-container-items">

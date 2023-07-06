@@ -22,9 +22,9 @@ export default function FirstContainer() {
       <div className="first-container">
         <img src="/logo.svg" alt="" />
         <span className="first-container-second-item">
-          <a href="#">Products</a>
-          <a href="#">Categories</a>
-          <a href="#">What's New</a>
+        <a href="#productSection">Products</a>
+        <a href="#categorySection">Categories</a>
+        <a href="#productSection">What's New</a>
         </span>
         <span className="first-container-third-item">
           <input

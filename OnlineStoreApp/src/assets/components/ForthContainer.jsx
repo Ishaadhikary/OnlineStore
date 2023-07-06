@@ -14,7 +14,7 @@ export default function ForthContainer() {
   };
   return (
     <>
-      <div className="forth-container">
+      <div className="forth-container" id="productSection">
         <h2>
           Products
           <hr />
