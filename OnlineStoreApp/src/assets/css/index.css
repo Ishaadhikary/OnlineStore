@@ -25,10 +25,11 @@ img {
 
 .top-right-item:hover,
 a:hover,
-button:hover {
+button:hover, .card-container:hover {
   font-weight: bold;
   font-size: medium;
   cursor: pointer;
+  transform: scale(1.1);
 }
 /* a:active{
     font-size: larger;
@@ -44,11 +45,13 @@ input {
 input:focus {
   outline: none;
 }
+
 h2{
   margin: 3% auto 2%;
   text-align: center;
   width: fit-content;
 }
+
 hr{
   border:1px solid  #ebd96b;
 }
@@ -62,6 +65,34 @@ button {
   font-size: 1.07rem;
 }
 
-button:hover {
+button:hover, .card-container:hover {
   box-shadow: var(--box-shadow);
+}
+.card-container:hover{
+  font-weight: normal;
+}
+
+/* Customized Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--secondary-color-four); 
+  
+  border-radius: var(--border-radius-small)
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  
+  border-radius: var(--border-radius-small)
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }

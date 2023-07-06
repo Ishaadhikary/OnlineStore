@@ -6,10 +6,30 @@
   flex-wrap: wrap;
   padding: 0px 3%;
 }
-
-.card-container {
+.card-container-box{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
   padding:0.5%;
     background: var(--secondary-color-four);
-  width: 16%;
+  max-width: 17%;
+  margin-top: 3%;
+  border-radius: var(--border-radius-small);
+  max-height: 350px;
+  overflow-y: scroll;
+
+}
+
+.card-container-box button{
+  margin-top: 1%;
+  margin-left:94.5%;
+  align-self: last baseline;
+  background: var(--secondary-color-two);
 }
 
