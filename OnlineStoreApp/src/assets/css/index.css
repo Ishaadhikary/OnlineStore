@@ -18,6 +18,7 @@ img {
   --secondary-color-two: #ebd96b; /* Yellow */
   --secondary-color-three: white;
   --secondary-color-four: #eeeeee; /* Dark gray */
+  --secondary-color-five:gray; /* Secondary text color:gray */
   --border-radius-big: 3.6875rem;
   --border-radius-small: 0.625rem;
   --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

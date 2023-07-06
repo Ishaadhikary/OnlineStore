@@ -21,15 +21,16 @@ export default function ForthContainer() {
           <hr />
         </h2>
         <div className="card-container-box">
-          {updateStoreData.map((values) => {
+          {updateStoreData.slice(0,5).map((values) => {
+          
             return (
               <>
                 <div className="card-container">
                   <div>
-                    <img src="/secondContainerImg.svg" alt="" />
-                    <p>{`$ ${values.price}`}</p>
+                    <img src={values.image} alt="" />
+                    <p><strong>{`$ ${values.price}`}</strong></p>
+                    <span className="second-container-second-item"><img src="/star.svg" alt="Rating Star" /> {`${values.rating.rate}(${values.rating.count})`}</span>
                     <h4>{values.title}</h4>
-                    <p>{values.description}</p>
                   </div>
                 </div>
               </>

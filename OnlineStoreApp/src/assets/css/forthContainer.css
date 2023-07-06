@@ -21,11 +21,26 @@
   max-width: 17%;
   margin-top: 3%;
   border-radius: var(--border-radius-small);
-  max-height: 350px;
+  max-height: 300px;
   overflow-y: scroll;
 
 }
+.second-container-second-item{
+  font-size: smaller;
+  color: var(--secondary-color-five);
+  display: flex;
+}
 
+.second-container-second-item img{
+  width:5.1%
+}
+
+.forth-container h4{
+  font-weight: normal;
+}
+.card-container div >img{
+  height:50%;
+}
 .card-container-box button{
   margin-top: 1%;
   margin-left:94.5%;
