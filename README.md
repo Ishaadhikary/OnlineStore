@@ -1,8 +1,8 @@
-# Assignment Title: E-commerce Development Task
+# Task Title: E-commerce Development- Online Store
 
 ## Assignment Description:
 
-In this assignment, you will create a basic e-commerce application using Next.js / React.js. You'll apply key React/Next concepts and fundamental web development skills. Your task is to develop a multi-page web application named "OnlineStore" that allows users to browse and search for products.
+Creating a basic e-commerce application using React.js.
 
 ## Instructions:
 
